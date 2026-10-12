@@ -1,0 +1,9 @@
+{
+    // Roda o clippy (linter) em vez do `cargo check` simples a cada save.
+    "rust-analyzer.check.command": "clippy",
+
+    "[rust]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    }
+}
